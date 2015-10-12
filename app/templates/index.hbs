@@ -1,0 +1,19 @@
+<ol class='breadcrumb'>
+  <li class='active'>Books</li>
+</ol>
+
+<div class='row'>
+  <div class='col-sm-8'>
+    {{books-sorted books=model.books}}
+  </div>
+  <div class='col-sm-4'>
+    {{genres-sorted genres=model.genres}}
+  </div>
+</div>
+
+<hr>
+<div class='row'>
+  <p class='pull-right'>
+    {{#link-to 'reviews.new'}}New Review{{/link-to}}
+  </p>
+</div>

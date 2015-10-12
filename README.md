@@ -1,7 +1,6 @@
 # Ember-readinglist
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This was created following along with Codeschool's "Soup to Bits: Warming up with Ember". However, a lot changed from Ember 1.x to 2.x, so it gave me good practice fixing deprecations and following new patterns (e.g. components instead of controllers).
 
 ## Prerequisites
 
